@@ -4,6 +4,8 @@ The following script will allow to generate a on-box device configuration based 
 
 First turn on iox and guestshell for your specific platform.
 
+![image](https://user-images.githubusercontent.com/63618040/130515090-2b8c7322-b619-4134-b014-88833d681d3a.png)
+
 Add the following files from the repository to your devices:  /bootflash/guest-share/
 
 ROUTER1# guestshell run bash                                      
