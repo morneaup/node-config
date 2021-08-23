@@ -1,4 +1,4 @@
-# On-Box Node Configuration Script
+# Cisco On-Box Node Configuration Python Script
 
 The following script will allow you to import pre-defined device variables and then generate the configurations for them on-box.  It then commits the configuration to running and startup configurations.
 
