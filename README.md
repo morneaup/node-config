@@ -1,6 +1,6 @@
 # Cisco On-Box Device Configuration Python Script
 
-The following script will allow to generate a on-box device configuration based on a list of pre-defined device properites (loopback, tunnel, etc) from a imported nodes.csv file.  The user runs the script and selects the particular "Node" # they want to deployed.   The predefined settings are creating in a node#cfg file.  The user then has the option to commint the configuration to the running and startup configurations.
+The following script will allow you to generate a on-box device configuration based on a list of pre-defined device properites (loopback, tunnel, etc) from a imported nodes.csv file.  The user runs the script and selects the particular "Node" # they want to deployed.   The predefined settings are creating in a node#cfg file.  The user then has the option to commint the configuration to the running and startup configurations.
 
 First turn on iox and guestshell for your specific platform.
 
