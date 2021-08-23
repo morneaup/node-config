@@ -2,7 +2,7 @@
 
 The following script will allow you to import pre-defined device variables and then generate the configurations for them on-box.  It then commits the configuration to running and startup configurations.
 
-First turn on iox and guestshell first for your specific platform.
+First turn on iox and guestshell for your specific platform.
 
 Add the following files from the repository to your devices:  /bootflash/guest-share/
 
