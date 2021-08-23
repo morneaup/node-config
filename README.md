@@ -2,9 +2,12 @@
 
 Add the following files to your /bootflash/guest-share/
 
+Turn on iox and guestshell first.
+
 Create:
 ROUTER1#guestshell run bash                                      
-[guestshell@guestshell ~]$ vi /bootflash/guest-share/node-cfg.py 
+[guestshell@guestshell ~]$ vi /bootflash/guest-share/node-cfg.py
+
 [guestshell@guestshell ~]$ vi /bootflash/guest-share/nodes.csv 
 
 Run:
