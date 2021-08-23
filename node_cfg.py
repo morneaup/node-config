@@ -29,7 +29,16 @@ def removeFile(full_path):
     else:
         pass
 
+# Validate nodes.csv exists
+def checksource_file(source_file):
+    if os.path.exists(source_file):
+        pass
+    else:
+        print('Warning: Please create: ' + source_file)
+        exit()
+
 # Read Node source file into variables
+checksource_file(source_file)
 with open(source_file, newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     nodes = []
