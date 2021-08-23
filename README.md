@@ -1,10 +1,11 @@
 # On-Box Node Configuration Script
 
-Add the following files to your /bootflash/guest-share/
+The following script will allow you to import pre-defined device variables and then generate the configurations for them on-box.  It then commits the configuration to running and startup configurations.
 
-Turn on iox and guestshell first.
+First turn on iox and guestshell first for your specific platform.
 
-Create:
+Add the following files from the repository to your devices:  /bootflash/guest-share/
+
 ROUTER1#guestshell run bash                                      
 [guestshell@guestshell ~]$ vi /bootflash/guest-share/node-cfg.py
 
