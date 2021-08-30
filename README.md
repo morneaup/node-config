@@ -8,7 +8,7 @@ Example Node Table:
 First turn on iox and guestshell for your specific platform.
 
 Example IOX/Guestshell Configuration:
-![image](https://user-images.githubusercontent.com/63618040/130515090-2b8c7322-b619-4134-b014-88833d681d3a.png)
+![image](https://user-images.githubusercontent.com/63618040/131387228-2fd10f0f-750a-4b7d-98ba-26961eeef36d.png)
 
 Add the following files from the repository to your devices:  /bootflash/guest-share/
 
