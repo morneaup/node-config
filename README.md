@@ -9,13 +9,6 @@ First turn on iox and guestshell for your specific platform.
 
 Example IOX/Guestshell Configuration:
 
-conf t
-iox
-app-hosting appid guestshell
-app-vnic management guest-interface 0
-end
-guestshell enable
-
 ![image](https://user-images.githubusercontent.com/63618040/131387300-cad98980-3be1-43aa-bf5b-f5e01e8a2785.png)
 
 Add the following files from the repository to your devices:  /bootflash/guest-share/
