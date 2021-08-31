@@ -100,11 +100,12 @@ if __name__ == "__main__":
                 DataNetwork1s.append(DataNetwork1)
                 CallManager1s.append(CallManager1)
                 indexCount += 1
-        csvfile.close
-    except Exception:
+     except Exception:
         print('Warning: Check input file!')
         exit()
-
+     finally:
+         csvfile.close
+            
     # Print Menu Header
     print('')
     print('Node Configuration Generation Script')
@@ -137,10 +138,11 @@ if __name__ == "__main__":
             f.write(f' ip address {tunnel3s[node_idx]} 255.255.255.252\n')
             f.write('interface tunnel 4\n')
             f.write(f' ip address {tunnel4s[node_idx]} 255.255.255.252')
-            f.close
     except:
         print('Warning: Problem with output file!')
         exit()
+    finally:
+         f.close
 
     # Print destination cfg file name for user
     print('')
