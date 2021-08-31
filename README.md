@@ -2,6 +2,8 @@
 
 The following script will allow you to generate a on-box device configuration based on a list of pre-defined device properites (loopback, tunnel, etc.) from a imported nodes.csv file.  The user runs the script and selects the particular "Node" # they want to generate.  The user then has the option to commit the configuration to the running and startup configurations.
 
+Note: This script has only been tested on the CISCO Catalyst 8000v router image, but should work on other platforms that support Python 3.
+
 Example Node Table:
 ![image](https://user-images.githubusercontent.com/63618040/130519098-9e177e8f-50ca-4d44-b041-55cd7b304e1e.png)
 
