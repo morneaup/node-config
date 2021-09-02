@@ -102,11 +102,11 @@ if __name__ == "__main__":
                 DataNetwork1s.append(DataNetwork1)
                 CallManager1s.append(CallManager1)
                 indexCount += 1
-     except Exception:
+    except Exception:
         print('Warning: Check input file!')
         exit()
-     finally:
-         csvfile.close
+    finally:
+        csvfile.close
             
     # Print Menu Header
     print('')
