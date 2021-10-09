@@ -1,4 +1,5 @@
 # Network Node Configuration Script
+# Version 1.0
 # Works with Python 3.6.8
 import csv
 import os
