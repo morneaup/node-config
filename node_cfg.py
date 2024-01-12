@@ -1,6 +1,6 @@
 # Network Node Configuration Script
 # Version 1.0
-# Works with Python 3.6.8
+# Works with Cisco C8000 and Python 3.6.8
 import csv
 import os
 import cli
